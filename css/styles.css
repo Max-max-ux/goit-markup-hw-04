@@ -251,11 +251,6 @@ button {
     padding: 120px 0;
 }
 
-.container-section-three {
-
-    /* display: flex; */
-    /* flex-direction: column; */
-}
 
 .name-three {
     font-size: 36px;
@@ -306,10 +301,6 @@ button {
 
 .section-four {
     padding: 120px 0;
-}
-
-.container-section-four {
-    /* display: flex; */
 }
 
 .name-four {
@@ -370,11 +361,6 @@ button {
 
 img {
     display: block;
-}
-
-
-div {
-    /* display: flex; */
 }
 
 p {

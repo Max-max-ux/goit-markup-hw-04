@@ -153,6 +153,8 @@ span {
 .main-title {
     background-color: #2e2f42;
     padding: 188px 0;
+    background-image: to bottom(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url("/images/people-office.png");
 }
 
 .name-title {
@@ -229,6 +231,18 @@ button {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+}
+
+.antenna {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+}
+
+#icon-antenna {
+    width: 64px;
+    height: 64px;
 }
 
 .skills {

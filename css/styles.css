@@ -70,8 +70,19 @@ h6 {
     position: relative;
 }
 
-.nav-link .studio::after {
+.nav-link.studio {
     color: #404bbf;
+}
+
+.nav-link.studio::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    background: #404bbf;
+    border-radius: 2px;
+    width: 48px;
+    height: 4px;
 }
 
 span {
@@ -116,8 +127,8 @@ span {
 
 
 
-.nav:hover,
-.nav:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 
 }

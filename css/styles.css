@@ -440,8 +440,10 @@ button {
 }
 
 .footer {
+    display: block;
     background-color: #2e2f42;
     padding: 100px 0;
+    height: 312px;
 }
 
 .paragraf-footer {
@@ -464,5 +466,31 @@ a {
 }
 
 .container-footer {
-    display: block;
+    display: flex;
+}
+
+.container-logo-footer {
+    margin-right: 120px;
+    width: 264px;
+}
+
+.social-container {
+    width: 208px;
+}
+
+.social-text-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.soc-list-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
 }

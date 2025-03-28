@@ -282,8 +282,11 @@ button {
 }
 
 .paragraf {
+    font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .section-three {
@@ -303,7 +306,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     width: 162px;
-    height: 40px;
+    /* height: 40px; */
 }
 
 .foto-list {
@@ -451,7 +454,6 @@ button {
     transform: translateY(0);
 }
 
-.app_names_and_app_categories:hover {}
 
 .name_h-three-section-four {
     margin-bottom: 8px;

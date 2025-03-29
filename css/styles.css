@@ -223,9 +223,9 @@ button {
     padding: 120px 0;
 }
 
-.container-section-two {
+/* .container-section-two {
     background-color: #f4f4fd;
-}
+} */
 
 .visuallyhidden:not(:focus):not(:active) {
     position: absolute;
